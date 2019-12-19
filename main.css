@@ -234,3 +234,25 @@ h2{
     transform: translate(165%, -5%);
     width: 25%;
 }
+
+.scratch{
+    position: absolute;
+    left: -25.5%; 
+}
+
+.thunkable{
+    position: absolute;
+    left: 81%;
+    top: 64%;
+}
+
+.earsketch{
+    position: absolute;
+    left: 187%;
+    top: -1%
+}
+
+.story{
+    position: absolute;
+    left: 187%
+}
