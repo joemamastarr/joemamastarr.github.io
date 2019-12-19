@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* The first half presents the background coloring and images to make the website cleaner and more appealing. While there are some parts about the edits on the navBar.  */
+
+body{
+    font-family: Clarendon-Condensed; 
+    font size: 
+    font-style:
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url(rift.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    border: 20px solid #000;
+    background-color: #000;
+    float: right;
+    list-style-type: none;
+    margin-top: 19px;
+    transform: translate(-15%, 2%);
+}
+
+ul li{
+    display: inline-block;
+    color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 26px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+    
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+/* This lower half presents edits, specifically position edits to make images and text boxes more prominent and well sized. */
+h1{
+    text-align: center;
+    transform: translate(-26%, 0%);
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 
+    text-decoration-color: none;
+    color: #fff;
+    transform: translate(0%, 5%);
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+.title h2{
+    color: #fff;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.page{
+    position: absolute;
+    top: 15%;
+    left: 7.8%;
+}
+
+.page h2{
+    position: none;
+}
+
+.page h3{
+    font-family: sans-serif;
+    font-size: 28px;
+    text-decoration-color: none;
+    color: #fff;
+    transform: translate(80%,19%);
+}
+
+.page h3{
+    position: absolute;
+    top: -1.5%;
+    left: 120%;
+}
+
+.page p1 {
+    position: absolute;
+    top: px;
+    color: #fff;
+}
+
+
+.portfolio {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    padding-bottom: 10%;
+    
+}
+.portfolio {
+    color: white
+}
+
+.portfolio h2 {
+    position: absolute;
+    transform: translate( 3%, 5%);
+    
+}
+
+.portfolio h3{
+    position: absolute;
+    top: 0.1%;
+    left: 81%;
+}
+
+.page p{
+    color: white; 
+    position: absolute;
+    top: 9%; 
+    transform: translate(106%, 8%);
+}
+
+.rotate{
+    transform: translate(%, 10%);
+    transform: rotate(90deg);
+}
+
+.alexis{
+    border-color: white;
+}
+
+.rotate90{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Right above is about is the coding used for rotating an image without causing the page to have issues.*/
+
+.jhun{
+    transform: translate(5%, 40%);
+}
+
+.details{
+    color: white;
+    position: absolute;
+    top: 9%;
+    transform:translate(320%, 166%);
+}
+
+.paul{
+    Position: absolute;
+    transform: translate(134%, 10%);
+}
+
+.paragraph{
+    position: absolute;
+    transform: translate(-675%, 2%)
+}
+
+.chessclub{
+    position: absolute;
+    top: translate(0%, 17%);
+}
+
+.details{
+    position: absolute;
+    font-size: 27px;
+    transform: translate(34%,16%);
+    
+}
+.details2{
+    position: absolute;
+    transform: translate(17%, 130%);
+}
+
+.goals {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    bottom:-700%;
+    right:
+}
+
+.kaila{
+    position:absolute;
+    transform:translate(120%, -120%);
+    width: 25%
+}
+
+.colin{
+    position: absolute;
+    transform: translate(165%, -5%);
+    width: 25%;
+}
