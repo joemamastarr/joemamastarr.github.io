@@ -258,6 +258,5 @@ h2{
 }
 
 .password{
-    position: absolute;
     transform: translate(1%, 15%);
 }
