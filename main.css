@@ -249,10 +249,15 @@ h2{
 .earsketch{
     position: absolute;
     left: 187%;
-    top: -1%
+    top: -1%;
 }
 
 .story{
     position: absolute;
     left: 187%
+}
+
+.password{
+    position: absolute;
+    left: -80%;
 }
